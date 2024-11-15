@@ -13,6 +13,7 @@
         "packagesPath": "/home/papylols/.nuget/packages/",
         "outputPath": "/home/papylols/Development/azure-4DESA/api/4DESA.Api/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/home/papylols/.nuget/NuGet/NuGet.Config"
         ],

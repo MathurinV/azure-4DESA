@@ -34,3 +34,23 @@ Supprimer un groupe:
 ```bash
 az group delete --name $GR
 ```
+
+Créer une solution dotnet:
+
+```bash
+dotnet new sln
+```
+
+Builder l'image docker à l'intérieur du répertoire de la solution:
+
+```bash
+docker build -t 4desa -f 4DESA.Api/Dockerfile .
+```
+
+Lancer l'image docker
+
+```bash
+docker run -P -h 4desa-container 4desa
+```
+
+avec 4desa le nom de l'image
